@@ -4,13 +4,13 @@
     src: url(fonts/Poppins/Poppins-Regular.ttf)format('truetype')
 }
 @font-face { 
-    font-family: 'Jost';
-    src: url(fonts/Jost/static/Jost-Regular.ttf)format('truetype')
+    font-family: 'Jost'; 
+    src: url(fonts/Jost/Jost-VariableFont_wght.ttf)format('truetype')
 }
 :root {
     --primary: #ef443b;
     --light: #fff8f8;
-    --dark: #524d4d;
+    --dark: #ffebeb;
     --font-primary: 'Jost',sans-serif;
     --secondary: #ffb9b9;
 
@@ -256,7 +256,7 @@ nav.navbar {
     position: relative;
     height: 100%;
     min-height: 500px;
-    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../img/video.jpg);
+    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../img/collaboration-network.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -370,27 +370,20 @@ nav.navbar {
 
 
 /*** Team ***/
-.team-item {
+.client-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     height: calc(100% - 38px);
     transition: .5s;
 }
-
-.team-item img {
+.client-item img {
     transition: .5s;
+    width: 100%;
 }
 
-.team-item:hover img {
+.client-item:hover img {
     transform: scale(1.1);
 }
-
-.team-item:hover {
-    height: 100%;
-}
-
-.team-item .btn {
-    border-radius: 38px 38px 0 0;
-}
+ 
 
 
 /*** Testimonial ***/
